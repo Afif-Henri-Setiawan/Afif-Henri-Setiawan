@@ -1,20 +1,20 @@
 <svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
-
   <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
     <stop stop-color="#07111F"/>
-    <stop offset="0.5" stop-color="#0B2340"/>
-    <stop offset="1" stop-color="#07566A"/>
+    <stop offset="0.5" stop-color="#0B243D"/>
+    <stop offset="1" stop-color="#075A6B"/>
   </linearGradient>
 
-  <linearGradient id="glass" x1="130" y1="65" x2="760" y2="270" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FFFFFF" stop-opacity="0.17"/>
-    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.06"/>
+  <linearGradient id="glass" x1="80" y1="60" x2="780" y2="270" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFFFFF" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.045"/>
   </linearGradient>
 
-  <linearGradient id="line" x1="155" y1="85" x2="290" y2="85" gradientUnits="userSpaceOnUse">
+  <linearGradient id="accent" x1="90" y1="0" x2="280" y2="0" gradientUnits="userSpaceOnUse">
     <stop stop-color="#7DD3FC"/>
+    <stop offset="0.55" stop-color="#38BDF8"/>
     <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
   </linearGradient>
 
@@ -23,133 +23,280 @@
   </filter>
 
   <filter id="glow">
-    <feGaussianBlur stdDeviation="8" result="blur"/>
+    <feGaussianBlur stdDeviation="6" result="blur"/>
     <feMerge>
       <feMergeNode in="blur"/>
       <feMergeNode in="SourceGraphic"/>
     </feMerge>
   </filter>
-
 </defs>
 
-<!-- Background -->
 
-<rect width="1200" height="330" rx="32" fill="url(#bg)"/>
+<!-- BACKGROUND -->
 
-<!-- Ambient glow -->
+<rect
+  width="1200"
+  height="330"
+  rx="30"
+  fill="url(#bg)"
+/>
 
-<circle cx="980" cy="95" r="155" fill="#22D3EE" fill-opacity="0.12" filter="url(#blur)"/>
-<circle cx="850" cy="300" r="190" fill="#0EA5E9" fill-opacity="0.10" filter="url(#blur)"/>
-<circle cx="235" cy="70" r="115" fill="#38BDF8" fill-opacity="0.07" filter="url(#blur)"/>
 
-<!-- Decorative circles -->
+<!-- BACKGROUND GLOW -->
 
-<circle cx="920" cy="90" r="125" fill="#38BDF8" fill-opacity="0.08"/>
-<circle cx="920" cy="90" r="125" stroke="#7DD3FC" stroke-opacity="0.08"/>
+<circle
+  cx="970"
+  cy="75"
+  r="150"
+  fill="#22D3EE"
+  fill-opacity="0.13"
+  filter="url(#blur)"
+/>
 
-<circle cx="875" cy="260" r="170" fill="#06B6D4" fill-opacity="0.06"/>
-<circle cx="875" cy="260" r="170" stroke="#67E8F9" stroke-opacity="0.05"/>
+<circle
+  cx="830"
+  cy="300"
+  r="180"
+  fill="#0EA5E9"
+  fill-opacity="0.10"
+  filter="url(#blur)"
+/>
 
-<!-- Abstract lines -->
+<circle
+  cx="220"
+  cy="55"
+  r="100"
+  fill="#38BDF8"
+  fill-opacity="0.06"
+  filter="url(#blur)"
+/>
 
-<path d="M800 72C900 80 980 115 1030 185" stroke="#7DD3FC" stroke-opacity="0.16" stroke-width="2"/>
-<path d="M790 95C900 110 960 145 1005 205" stroke="#7DD3FC" stroke-opacity="0.09" stroke-width="2"/>
-<path d="M775 118C875 130 940 160 980 215" stroke="#7DD3FC" stroke-opacity="0.06" stroke-width="2"/>
 
-<!-- Glass card -->
+<!-- RIGHT DECORATIVE CIRCLES -->
 
-<rect x="62" y="58" width="670" height="215" rx="25"
-   fill="url(#glass)"
-   stroke="#FFFFFF"
-   stroke-opacity="0.18"/>
+<circle
+  cx="930"
+  cy="90"
+  r="125"
+  fill="#38BDF8"
+  fill-opacity="0.075"
+/>
 
-<!-- Top accent -->
+<circle
+  cx="930"
+  cy="90"
+  r="125"
+  stroke="#7DD3FC"
+  stroke-opacity="0.08"
+/>
 
-<rect x="86" y="82" width="145" height="5" rx="2.5" fill="url(#line)" filter="url(#glow)"/>
+<circle
+  cx="870"
+  cy="270"
+  r="165"
+  fill="#06B6D4"
+  fill-opacity="0.05"
+/>
 
-<!-- Name -->
+<circle
+  cx="870"
+  cy="270"
+  r="165"
+  stroke="#67E8F9"
+  stroke-opacity="0.05"
+/>
 
-<text x="88" y="143"
-   fill="white"
-   font-family="Inter, Arial, sans-serif"
-   font-size="39"
-   font-weight="700">
-Afif Henri Setiawan </text>
 
-<!-- Role -->
+<!-- ABSTRACT LINES -->
 
-<text x="88" y="180"
-   fill="#C7DDED"
-   font-family="Inter, Arial, sans-serif"
-   font-size="18">
-Informatics Student · Web Developer · Mobile Developer </text>
+<path
+  d="M790 75C900 82 985 115 1045 185"
+  stroke="#7DD3FC"
+  stroke-opacity="0.16"
+  stroke-width="2"
+/>
 
-<!-- Pills -->
+<path
+  d="M780 100C890 112 970 145 1020 205"
+  stroke="#7DD3FC"
+  stroke-opacity="0.09"
+  stroke-width="2"
+/>
 
-<rect x="88" y="207" width="120" height="40" rx="20"
-   fill="#FFFFFF" fill-opacity="0.09"
-   stroke="#FFFFFF" stroke-opacity="0.12"/>
+<path
+  d="M770 125C870 135 945 165 990 220"
+  stroke="#7DD3FC"
+  stroke-opacity="0.06"
+  stroke-width="2"
+/>
 
-<text x="113" y="233"
-   fill="#E2E8F0"
-   font-family="Arial, sans-serif"
-   font-size="14"
-   font-weight="600">
-React </text>
 
-<rect x="220" y="207" width="120" height="40" rx="20"
-   fill="#FFFFFF" fill-opacity="0.09"
-   stroke="#FFFFFF" stroke-opacity="0.12"/>
+<!-- GLASS CARD -->
 
-<text x="245" y="233"
-   fill="#E2E8F0"
-   font-family="Arial, sans-serif"
-   font-size="14"
-   font-weight="600">
-Next.js </text>
+<rect
+  x="62"
+  y="58"
+  width="720"
+  height="215"
+  rx="25"
+  fill="url(#glass)"
+  stroke="#FFFFFF"
+  stroke-opacity="0.18"
+/>
 
-<rect x="352" y="207" width="120" height="40" rx="20"
-   fill="#FFFFFF" fill-opacity="0.09"
-   stroke="#FFFFFF"
-   stroke-opacity="0.12"/>
 
-<text x="377" y="233"
-   fill="#E2E8F0"
-   font-family="Arial, sans-serif"
-   font-size="14"
-   font-weight="600">
-NestJS </text>
+<!-- TOP ACCENT -->
 
-<rect x="484" y="207" width="120" height="40" rx="20"
-   fill="#FFFFFF" fill-opacity="0.09"
-   stroke="#FFFFFF"
-   stroke-opacity="0.12"/>
+<rect
+  x="88"
+  y="82"
+  width="155"
+  height="5"
+  rx="2.5"
+  fill="url(#accent)"
+  filter="url(#glow)"
+/>
 
-<text x="509" y="233"
-   fill="#E2E8F0"
-   font-family="Arial, sans-serif"
-   font-size="14"
-   font-weight="600">
-Flutter </text>
 
-<!-- Right-side abstract UI -->
+<!-- NAME -->
 
-<rect x="830" y="112" width="140" height="78" rx="18"
-   fill="#FFFFFF" fill-opacity="0.07"
-   stroke="#FFFFFF" stroke-opacity="0.10"/>
+<text
+  x="88"
+  y="143"
+  fill="#FFFFFF"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="39"
+  font-weight="700"
+>
+  Afif Henri Setiawan
+</text>
 
-<rect x="858" y="138" width="84" height="8" rx="4"
-   fill="#7DD3FC" fill-opacity="0.25"/>
 
-<rect x="858" y="158" width="55" height="7" rx="3.5"
-   fill="#FFFFFF" fill-opacity="0.14"/>
+<!-- ROLE -->
 
-<rect x="858" y="205" width="105" height="45" rx="15"
-   fill="#FFFFFF" fill-opacity="0.05"
-   stroke="#FFFFFF" stroke-opacity="0.08"/>
+<text
+  x="88"
+  y="180"
+  fill="#C7DDED"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="18"
+>
+  Informatics Student · Web Developer · Mobile Developer
+</text>
 
-<circle cx="882" cy="228" r="8" fill="#38BDF8" fill-opacity="0.35"/>
-<rect x="900" y="221" width="48" height="6" rx="3"
-      fill="#FFFFFF" fill-opacity="0.12"/>
+
+<!-- SMALL DECORATIVE UI -->
+
+<rect
+  x="850"
+  y="115"
+  width="145"
+  height="82"
+  rx="20"
+  fill="#FFFFFF"
+  fill-opacity="0.065"
+  stroke="#FFFFFF"
+  stroke-opacity="0.10"
+/>
+
+<rect
+  x="880"
+  y="140"
+  width="88"
+  height="8"
+  rx="4"
+  fill="#7DD3FC"
+  fill-opacity="0.28"
+/>
+
+<rect
+  x="880"
+  y="159"
+  width="58"
+  height="7"
+  rx="3.5"
+  fill="#FFFFFF"
+  fill-opacity="0.13"
+/>
+
+<rect
+  x="880"
+  y="180"
+  width="42"
+  height="7"
+  rx="3.5"
+  fill="#FFFFFF"
+  fill-opacity="0.08"
+/>
+
+
+<!-- SECOND UI CARD -->
+
+<rect
+  x="875"
+  y="212"
+  width="125"
+  height="50"
+  rx="16"
+  fill="#FFFFFF"
+  fill-opacity="0.045"
+  stroke="#FFFFFF"
+  stroke-opacity="0.08"
+/>
+
+<circle
+  cx="900"
+  cy="237"
+  r="9"
+  fill="#38BDF8"
+  fill-opacity="0.45"
+/>
+
+<rect
+  x="918"
+  y="230"
+  width="54"
+  height="6"
+  rx="3"
+  fill="#FFFFFF"
+  fill-opacity="0.12"
+/>
+
+<rect
+  x="918"
+  y="242"
+  width="37"
+  height="5"
+  rx="2.5"
+  fill="#FFFFFF"
+  fill-opacity="0.07"
+/>
+
+
+<!-- DECORATIVE DOTS -->
+
+<circle
+  cx="1075"
+  cy="65"
+  r="4"
+  fill="#7DD3FC"
+  fill-opacity="0.35"
+/>
+
+<circle
+  cx="1100"
+  cy="85"
+  r="2.5"
+  fill="#FFFFFF"
+  fill-opacity="0.25"
+/>
+
+<circle
+  cx="1045"
+  cy="285"
+  r="3"
+  fill="#67E8F9"
+  fill-opacity="0.3"
+/>
 
 </svg>
