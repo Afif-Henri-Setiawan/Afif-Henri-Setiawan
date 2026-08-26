@@ -1,40 +1,108 @@
-# Hi there, I'm [Nama Anda]! 👋
+<!-- HEADER -->
+<div align="center">
 
-### 👨‍💻 About Me
-Saya seorang mahasiswa Informatika yang antusias dalam pengembangan perangkat lunak, infrastruktur jaringan, dan kecerdasan buatan. Saya fokus membangun solusi yang efisien, mulai dari aplikasi *mobile* dan *web* hingga eksplorasi arsitektur *machine learning*.
+# 👋 Hi, I'm Afif Henri Setiawan
 
-- 🔭 Saat ini sedang mengembangkan: Aplikasi *mobile* dan sistem *web* interaktif.
-- 🌱 Sedang mempelajari: Sertifikasi jaringan (CCNA) dan model *deep learning* (CNN & Vision Transformer).
-- 💬 Tanyakan saya tentang: **Flutter, PHP, Tailwind CSS, dan Fundamental Jaringan (OSI Model).**
-- 📫 Cara menghubungi saya: [Email Anda / Tautan LinkedIn Anda]
+### 💻 Informatics Student • Web Developer • Mobile Developer
 
----
+Building web & mobile applications with modern technologies  
+and continuously exploring new things in tech 🚀
 
-### 🛠️ Tech Stack & Tools
+<br/>
 
-**Development**
-<p>
-  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-</p>
+<a href="https://github.com/Afif-Henri-Setiawan">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://instagram.com/">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
 
-**Data & AI**
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Machine Learning" />
-</p>
+</div>
 
 ---
 
-### 🚀 Highlighted Projects
+## 🧑‍💻 About Me
 
-*   📱 **Novel Reader App** – Aplikasi pembaca novel berbasis *mobile* menggunakan arsitektur Flutter yang bersih dan terintegrasi dengan API eksternal.
-*   🛒 **Custom Portfolio & Booking System** – Platform manajemen pesanan berbasis *web* yang dilengkapi fitur desain kustom, dibangun menggunakan PHP (PDO) dan Tailwind CSS.
-*   🧠 **Image Classification Models** – Implementasi arsitektur *Convolutional Neural Network* (CNN) dan *Vision Transformer* (ViT) untuk klasifikasi gambar.
+I'm an **Informatics student** who enjoys building applications and learning modern technologies.
+
+- 🌐 Interested in **Web Development**
+- 📱 Exploring **Mobile Development**
+- 🤖 Interested in **AI Integration**
+- 🛠️ Enjoy building projects and experimenting with new technologies
+- 🚀 Currently improving my development skills through real-world projects
 
 ---
 
-### 📊 GitHub Stats
+## ⚡ Tech Stack
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Afif-Henri-Setiawan&show_icons=true&theme=radium)](https://github.com/Afif-Henri-Setiawan)
+<div align="center">
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" />
+
+### Backend & Database
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,php,mysql,mongodb" />
+
+### Mobile & Tools
+
+<img src="https://skillicons.dev/icons?i=flutter,dart,git,github,docker,vercel" />
+
+</div>
+
+---
+
+## 🚀 What I Build
+
+<table>
+<tr>
+<td width="50%">
+
+### 🌐 Web Applications
+
+Building responsive and modern web applications using technologies such as React, Next.js, Node.js and more.
+
+</td>
+
+<td width="50%">
+
+### 📱 Mobile Applications
+
+Exploring mobile application development and creating useful applications with modern frameworks.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🤖 AI Integration
+
+Exploring how AI and existing AI APIs can be integrated into applications to create smarter user experiences.
+
+</td>
+
+<td width="50%">
+
+### 🧪 Learning by Building
+
+Most of my learning comes from building projects, experimenting with technologies and solving real problems.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📌 Currently Learning
+
+```text
+React Native
+AI Integration
+Backend Development
+Deployment & DevOps
+Clean Architecture
