@@ -37,6 +37,4 @@ Saya seorang mahasiswa Informatika yang antusias dalam pengembangan perangkat lu
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Afif-Henri-Setiawan&show_icons=true&theme=radium" alt="GitHub Stats" />
-</p>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Afif-Henri-Setiawan&show_icons=true&theme=radium)](https://github.com/Afif-Henri-Setiawan)
