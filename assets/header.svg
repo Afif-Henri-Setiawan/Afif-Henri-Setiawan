@@ -1,4 +1,4 @@
-<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
@@ -137,7 +137,7 @@
   x="62"
   y="58"
   width="720"
-  height="215"
+  height="160"
   rx="25"
   fill="url(#glass)"
   stroke="#FFFFFF"
